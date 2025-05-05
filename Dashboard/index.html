@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Dashboard/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Finbai Inventory</h2>
+    <div class="menu-item">Dashboard</div>
+    <div class="menu-item">Contacts</div>
+    <div class="menu-item">Items</div>
+    <div class="menu-item">Sales Orders</div>
+    <div class="menu-item">Packages</div>
+    <div class="menu-item">Invoices</div>
+    <div class="menu-item">Purchase Orders</div>
+    <div class="menu-item">Bills</div>
+    <div class="menu-item">Integrations</div>
+    <div class="menu-item">Reports</div>
+    <div class="menu-item">Shopify</div>
+  </div>
+
+  <div class="content">
+    <div class="invoice-list">
+      <div class="invoice-item">
+        <h4>INV-000149</h4>
+        <span>Aaron Brown</span>
+        <span>$800.00 - PAID</span>
+      </div>
+      <div class="invoice-item">
+        <h4>INV-000151</h4>
+        <span>Bruce Straley</span>
+        <span>$2,097.00 - PAID</span>
+      </div>
+      <div class="invoice-item">
+        <h4>INV-000150</h4>
+        <span>Neil Druckmann</span>
+        <span>$33.00 - DRAFT</span>
+      </div>
+      <!-- Add more items here as needed -->
+    </div>
+
+    <div class="invoice-details">
+      <div class="invoice-header">
+        <h2>Invoice #INV-000149</h2>
+        <span class="paid-tag">Paid</span>
+      </div>
+
+      <div class="invoice-section">
+        <h3>Bill To</h3>
+        <p>
+          Aaron Brown<br>
+          701 N Santa Anita Ave<br>
+          Arcadia, 91006-2725<br>
+          United States<br>
+          9710188325
+        </p>
+      </div>
+
+      <div class="invoice-section">
+        <h3>Invoice Info</h3>
+        <p>
+          Invoice Date: 04/04/2018<br>
+          Terms: Due on Receipt<br>
+          Due Date: 04/04/2018<br>
+          P.O.#: SO-00135
+        </p>
+      </div>
+
+      <div class="invoice-section">
+        <h3>Items</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Item & Description</th>
+              <th>Qty</th>
+              <th>Rate</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>ABC ITEM</td>
+              <td>80.00 pcs</td>
+              <td>10.00</td>
+              <td>$800.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="footer">
+        <strong>Balance Due:</strong> $0.00
+      </div>
+    </div>
+  </div>
+</body>
+</html>
