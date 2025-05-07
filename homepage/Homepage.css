@@ -11,7 +11,7 @@
   }
   
   header {
-    background-color: white;
+    background-color: white; 
     padding: 1rem 2rem;
     display: flex;
     height: 85px;
@@ -110,3 +110,84 @@
     margin-top: 2rem;
   }
   
+  /* FOOTER STYLES */
+footer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer h1 {
+  font-size: 3rem;
+  color: #00c896;
+  margin: 10px 0;
+}
+
+footer h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+footer form {
+  margin: 30px auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer input[type="email"],
+footer input[type="text"]
+ {
+  padding: 12px 16px;
+  color: #00c896;
+  border: none;
+  border-radius: 4px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+footer button:hover {
+  background-color: #009f77;
+}
+
+/* Footer sections */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+  text-align: left;
+}
+
+.footer-section div {
+  min-width: 180px;
+}
+
+.footer-section h4 {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
