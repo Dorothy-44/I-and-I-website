@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="login.css">
-    <title>Modern Login Page | BenTech</title>
+    <title>Login_Page</title>
 </head>
 <body>
+    <header>
+        <div class="logo"><img src="/images/web Logo/logo.jpeg" alt=""></div>
+        <nav>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
     
     <div class="container" id="container">
         <div class="form-container sign-up">
@@ -19,10 +29,13 @@
                     <a href="#" class="icons"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icons"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-                <span>or use your email for registration</span>
+                <p>or use your email for registration</p>
                 <input type="text" placeholder="Name" required>
                 <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Passcode" required>
+                <div class="password-wrapper">
+                    <input type="password" id="signup-password" placeholder="Password" required>
+                    <button type="button" onclick="togglePassword('signup-password', this)">Show</button>
+                </div>  
                 <button>Sign Up</button>
             </form>
         </div>
@@ -38,7 +51,10 @@
                 </div>
                 <span>or use your email and password</span>
                 <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Passcode" required>
+                <div class="password-wrapper">
+                    <input type="password" id="signup-password" placeholder="Password" required>
+                    <button type="button" onclick="togglePassword('signup-password', this)">Show</button>
+                </div>  
                 <a href="#">Forgot your password? <strong>click here</strong></a>
                 <button>Sign In</button>
             </form>
@@ -47,19 +63,20 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back! 😁</h1>
+                    <h1>Welcome Back! </h1>
                     <p>Enter your personal details to use all of the site features</p>
                     <button class="hidden" id="login">Sign In</button>
                 </div>
 
-                <div class="toggle-panel toggle-left">
-                    <h1>Hello, there! 👋👋</h1>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, there!</h1>
                     <p>Register with your personal details to use all of the site features</p>
                     <button class="hidden" id="register">Sign Up</button>
                 </div>
             </div>
         </div>
     </div>
+    
 
     <script src="login.js"></script>
 </body>
