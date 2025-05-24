@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./homepage/Homepage.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="../images/logo.jpeg" alt="Logo" /></div>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="./homepage/Login_repo/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Streamline Your Inventory & Invoicing</h1>
+      <p>Manage items, track sales, and send professional invoices — all in one</p>
+      <a href="./Login_repo/login.html" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Choose QuickINV?</h2>
+    <div class="feature-grid">
+      <div class="feature" data-aos="fade-up">
+        <i class="fas fa-file-invoice icon"></i>
+        <h3>Easy Invoicing</h3>
+        <p>Create and send invoices in seconds</p>
+        <img src="./images/invoice.png" alt="Invoicing" class="feature-img">
+      </div>
+      <div class="feature" data-aos="fade-up">
+        <i class="fas fa-boxes icon"></i>
+        <h3>Inventory Tracking</h3>
+        <p>Monitor stock levels and automate reorder alerts</p>
+        <img src="./images/inventory.png" alt="inventory" class="feature-img">
+      </div>
+      <div class="feature" data-aos="fade-up">
+        <i class="fas fa-cloud icon"></i>
+        <h3>Cloud-Based</h3>
+        <p>Access your data anytime, anywhere with cloud sync</p>
+        <img src="./images/cloud.png" alt="Cloud-Based" class="feature-img">
+      </div>
+    </div>
+  </section>
+
+  <section class="dashboard-overview section">
+    <h2>Dashboard Overview</h2>
+    <p>Get a real-time overview of your inventory, sales, and revenue.</p>
+    <div class="dashboard-card">
+      <i class="fas fa-chart-line"></i>
+      <h4>Live Sales Metrics</h4>
+      <p>View up-to-date stats on revenue, items sold, and customer activity.</p>
+    </div>
+  </section>
+
+  <section class="product-catalog section">
+    <h2>Product Catalog</h2>
+    <p>Organize and manage your product listings with ease.</p>
+    <div class="catalog-item">
+      <img src="../images/catalog.png" alt="Product Catalog" />
+      <h4>Sample Product Group</h4>
+    </div>
+  </section>
+
+  <section class="recent-updates section">
+    <h2>Recent Updates</h2>
+    <ul>
+      <li>📦 Bulk upload feature added for product listings</li>
+      <li>📈 Enhanced analytics dashboard with sales trends</li>
+      <li>🔒 Two-factor authentication now available</li>
+    </ul>
+  </section>
+
+  <section class="announcement-panel section">
+    <h2>Announcements</h2>
+    <p>🚀 New update rolling out on June 1st with performance enhancements!</p>
+  </section>
+
+  <section class="customer-portal section">
+    <h2>Customer Portal Access</h2>
+    <p>Allow your customers to view their orders, invoices, and make payments securely online.</p>
+    <a href="#">Open Customer Portal</a>
+  </section>
+
+  <section class="help-support section">
+    <h2>Help & Resources</h2>
+    <div class="support-item">
+      <i class="fas fa-book"></i>
+      <h4>Help Docs</h4>
+      <p>Comprehensive guides to get you started and troubleshoot issues.</p>
+    </div>
+    <div class="support-item">
+      <i class="fas fa-life-ring"></i>
+      <h4>Support</h4>
+      <p>Our 24/7 team is ready to help you anytime via chat or email.</p>
+    </div>
+  </section>
+
+  <footer>
+    <h3>Get QuickINV and</h3>
+    <h2>Elevate your <span>billing</span> experience</h2>
+
+    <form>
+      <input type="email" placeholder="Sign up now" required class="email" />
+      <input type="text" placeholder="Schedule a trial" />
+    </form>
+
+    <div class="footer-section">
+      <div>
+        <h4>HELP & RESOURCES</h4>
+        <ul>
+          <li><a href="#">About QuickINV</a></li>
+          <li><a href="#">All features</a></li>
+          <li><a href="#">Customers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Billing</a></li>
+          <li><a href="#">Help Docs</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Webinars</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p>&copy; 2025 QuickINV. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      offset: 100, 
+      once: true 
+    });
+  </script>
+
+</body>
+</html>
