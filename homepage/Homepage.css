@@ -63,6 +63,7 @@
   .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    
   }
   
   .hero p {
@@ -106,6 +107,10 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   }
   
+    /* .easy invoicing {
+    img position= bottom right;
+
+
   .feature h3 {
     margin-bottom: 0.5rem;
   }
@@ -137,15 +142,10 @@ footer {
 
 footer h2 {
   font-size: 3rem;
-  color: #ffffff;
   margin: 10px 0;
 }
 
-footer h2 span{
-  color: #00ba55;
-}
-
-footer h3 {
+footer h2 {
   font-size: 2rem;
   margin: 10px 0;
 }
